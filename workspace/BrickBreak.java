@@ -10,7 +10,7 @@ import java.awt.Color;
 
 import java.awt.Font;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
+
 import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -63,9 +63,7 @@ public class BrickBreak extends JPanel implements KeyListener, ActionListener {
 	}
 
 	
-	//precondition: Graphics g is not null.
-	//postcondition: paints the entire game of brick break including all associated components onto the screen.
-	//additionally will check to see if the game is over and draw the game over screen if appropriate.
+	
 	public void paint(Graphics g) {
 		// background
 		g.setColor(Color.black);
