@@ -1,5 +1,5 @@
 //  Ray 
-//  Date created:  <Date>
+//  Date created:  1/22/2025
 //  General description: This class represents the ball in the Brick Break game, responsible for its movement, collision detection, and drawing.
 
 import java.awt.Color;

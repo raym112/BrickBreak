@@ -1,6 +1,14 @@
 import java.awt.Color;
 import java.awt.Graphics;
 
+/**
+ * Paddle.java
+ * Author: Ray Mukoyama 
+ * Date: 1/22/2025
+ * Description: This class represents a paddle object for a game, such as a pong-style game.
+ * It includes functionality to move the paddle, add velocity, and draw the paddle on the screen.
+ */
+
 public class Paddle {
 
     // Instance variables
@@ -46,11 +54,10 @@ public class Paddle {
     public void addVelocity(int vel) {
         velocity = vel;
     }
-	
-public void setVelocity(int velocity) {
-    this.velocity = velocity;
-}
 
+    public void setVelocity(int velocity) {
+        this.velocity = velocity;
+    }
 
     // Method to move the paddle
     public void move() {
